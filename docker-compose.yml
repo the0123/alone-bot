@@ -1,0 +1,9 @@
+services:
+  alone-bot:
+    build: .
+    container_name: alone-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/data
