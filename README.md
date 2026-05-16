@@ -261,7 +261,3 @@ The LLM never writes directly to the DB. It proposes; deterministic code commits
 - **Full health dashboard** — separate future project. Will absorb the bot's heartbeat once it exists.
 
 ---
-
-## Decisions locked for v1
-
-All open questions resolved. Ready to build when you are.
