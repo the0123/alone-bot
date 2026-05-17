@@ -1,0 +1,14 @@
+[schedule]
+weekday_pings = ["15 17 * * 1-5"]
+weekend_pings = ["0 11 * * 6,0", "30 15 * * 6,0", "0 20 * * 6,0"]
+followup_hours = 1.5
+heartbeat = "0 9 * * *"
+
+[behavior]
+suggestions_per_session_max = 5
+recent_repeat_blackout_days = 3
+suggestion_timeout_hours = 12
+session_window_minutes = 30
+
+[database]
+path = "/data/alone-bot.db"

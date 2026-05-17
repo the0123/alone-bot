@@ -7,3 +7,8 @@ services:
       - .env
     volumes:
       - ./data:/data
+    labels:
+      - homepage.group=Services
+      - homepage.name=Alone Bot
+      - homepage.icon=mdi-robot-happy
+      - homepage.description=Telegram Bot Activity Suggester
