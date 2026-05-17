@@ -1,4 +1,4 @@
-# // alone-bot.log — project doc
+# alone-bot.log — project doc
 
 **Status** v1 / BUILT
 **Host** MainLXC (192.168.1.10) on Proxmox VE
