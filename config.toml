@@ -1,6 +1,8 @@
 [schedule]
-weekday_pings = ["15 17 * * 1-5"]
-weekend_pings = ["0 11 * * 6,0", "30 15 * * 6,0", "0 20 * * 6,0"]
+# Day-of-week in cron uses APScheduler's convention: Mon=0, Sun=6
+# (NOT standard cron's Sun=0, Sat=6)
+weekday_pings = ["15 17 * * 0-4"]
+weekend_pings = ["0 11 * * 5,6", "30 15 * * 5,6", "0 18 * * 5,6"]
 followup_hours = 1.5
 heartbeat = "0 9 * * *"
 
